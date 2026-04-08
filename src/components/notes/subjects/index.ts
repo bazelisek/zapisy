@@ -1,21 +1,28 @@
 import { JSX } from "react";
-import Math from "./math";
-import Biology from "./biology";
-import Chemistry from "./chemistry";
-import Civics from "./civics";
-import Czech from "./czech";
-import English from "./english";
-import Geography from "./geography";
-import German from "./german";
-import History from "./history";
-import Informatics from "./informatics";
-import AKP from "./akp";
-import Physics from "./physics";
+import akpTopics from "./akp/topics";
+import biologyTopics from "./biology/topics";
+import chemistryTopics from "./chemistry/topics";
+import civicsTopics from "./civics/topics";
+import czechTopics from "./czech/topics";
+import englishTopics from "./english/topics";
+import geographyTopics from "./geography/topics";
+import germanTopics from "./german/topics";
+import historyTopics from "./history/topics";
+import informaticsTopics from "./informatics/topics";
+import mathTopics from "./math/topics";
+import physicsTopics from "./physics/topics";
 
 export type Subject = {
     id: string;
     name: string;
     description: string;
+    topics: Topic[];    
+};
+
+export type Topic = {
+    id: string;
+    name: string;
+    description?: string;
     homepage: () => JSX.Element;
 };
 
@@ -24,73 +31,73 @@ const subjects: Subject[] = [
         id: "math",
         name: "Matematika",
         description: "6*9=42",
-        homepage: Math,
+        topics: mathTopics,
     },
     {
         id: "biology",
         name: "Biologie",
         description: "Studium živých organismů",
-        homepage: Biology,
+        topics: biologyTopics,
     },
     {
         id: "chemistry",
         name: "Chemie",
         description: "Studium chemických látek a reakcí",
-        homepage: Chemistry,
+        topics: chemistryTopics,
     },
     {
         id: "civics",
         name: "ZSV",
         description: "Studium společnosti a demokracie",
-        homepage: Civics,
+        topics: civicsTopics,
     },
     {
         id: "czech",
         name: "Čeština",
         description: "Studium českého jazyka a literatury",
-        homepage: Czech,
+        topics: czechTopics,
     },
     {
         id: "english",
         name: "Angličtina",
         description: "Studium anglického jazyka",
-        homepage: English,
+        topics: englishTopics,
     },
     {
         id: "geography",
         name: "Zeměpis",
         description: "Studium země a přírodních jevů",
-        homepage: Geography,
+        topics: geographyTopics,
     },
     {
         id: "german",
         name: "Němčina",
         description: "Studium německého jazyka",
-        homepage: German,
+        topics: germanTopics,
     },
     {
         id: "history",
         name: "Dějepis",
         description: "Studium historických událostí",
-        homepage: History,
+        topics: historyTopics,
     },
     {
         id: "informatics",
         name: "Informatika",
         description: "Studium počítačů a programování",
-        homepage: Informatics,
+        topics: informaticsTopics,
     },
     {
         id: "akp",
         name: "AKP",
         description: "Dějepis^2",
-        homepage: AKP,
+        topics: akpTopics,
     },
     {
         id: "physics",
         name: "Fyzika",
         description: "Studium fyzikálních zákonů",
-        homepage: Physics,
+        topics: physicsTopics,
     }
 ];
 export default subjects;

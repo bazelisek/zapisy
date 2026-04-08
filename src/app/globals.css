@@ -13,3 +13,45 @@ body {
   color: var(--foreground);
   font-family: var(--font-geist-sans), sans-serif;
 }
+
+h1 {
+  font-size: xx-large;
+  margin-bottom: 16px;
+  margin-top: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: x-large;
+  margin-bottom: 16px;
+  margin-top: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: larger;
+  margin-bottom: 12px;
+  margin-top: 6px;
+  text-align: center;
+  font-weight: bold;
+}
+
+h4, h5, h6 {
+  font-size: large;
+  margin-bottom: 8px;
+  margin-top: 4px;
+  text-align: left;
+  font-weight: bold;
+}
+
+h5, h6 {
+  font-size: medium;
+}
+
+p {
+  margin-bottom: 4px;
+  margin-top:48px;
+  line-height: 1.5;
+}
