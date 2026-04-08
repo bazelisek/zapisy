@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/sections/Header";
+import HeroUIThemeSync from "@/components/theme/HeroUIThemeSync";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,9 +27,32 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      suppressHydrationWarning
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (() => {
+                const isDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+                const root = document.documentElement;
+                root.classList.toggle("dark", isDark);
+                root.dataset.theme = isDark ? "dark" : "light";
+              })();
+            `,
+          }}
+        />
+        <link
+          href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css"
+          rel="stylesheet"
+        />
+      </head>
+      <body className="min-h-full flex flex-col items-center">
+        <HeroUIThemeSync />
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
