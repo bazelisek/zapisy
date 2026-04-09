@@ -19,7 +19,7 @@ export default function Kombinatorika() {
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quo.
       </p>
-      <List variant="ol" collapsible>
+      <List variant="ol" collapsible={false}>
         <ListItem>Permutace</ListItem>
         <ListItem>
           <List variant="ol" collapsible label="Something">

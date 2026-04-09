@@ -72,13 +72,13 @@ const subjects: Subject[] = [
     {
         id: "german",
         name: "Němčina",
-        description: "Studium německého jazyka",
+        description: "Zkusit šušn",
         topics: germanTopics,
     },
     {
         id: "history",
         name: "Dějepis",
-        description: "Studium historických událostí",
+        description: "Tady chcípl pes.",
         topics: historyTopics,
     },
     {

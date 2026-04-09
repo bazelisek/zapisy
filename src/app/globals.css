@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @import "@heroui/styles";
 
-@theme inline {
+:root {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
@@ -52,6 +52,18 @@ h5, h6 {
 
 p {
   margin-bottom: 4px;
-  margin-top:48px;
+  margin-top: 4px;
   line-height: 1.5;
+}
+
+.separator {
+  margin: 16px 0px;
+}
+
+.bg {
+  background: radial-gradient(
+    ellipse at center,
+    color-mix(in oklab, var(--background) 88%, var(--foreground) 12%) 0%,
+    var(--background) 100%
+  );
 }

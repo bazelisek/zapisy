@@ -51,7 +51,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col items-center">
         <HeroUIThemeSync />
         <Header />
-        {children}
+        <div className="bg w-full h-full">{children}</div>
       </body>
     </html>
   );
