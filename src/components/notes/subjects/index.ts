@@ -48,7 +48,7 @@ const subjects: Subject[] = [
     {
         id: "civics",
         name: "ZSV",
-        description: "Studium společnosti a demokracie",
+        description: "Žvásty společenských vepřů",
         topics: civicsTopics,
     },
     {

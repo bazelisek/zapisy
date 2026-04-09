@@ -3,7 +3,7 @@ import { Accordion, AccordionBody, AccordionHeading } from "@heroui/react";
 import { ChevronDown } from "@gravity-ui/icons";
 
 interface NoteAccordionProps {
-  icon: ReactNode;
+  icon?: ReactNode;
   summary: ReactNode;
   children: ReactNode;
 }
