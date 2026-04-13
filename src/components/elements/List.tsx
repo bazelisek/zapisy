@@ -19,7 +19,7 @@ const ListDepthContext = createContext(0);
 const unorderedStyles = [
   "list-disc",
   "[list-style-type:circle]",
-  "list-square",
+  "[list-style-type:square]",
   "[list-style-type:disclosure-closed]",
 ];
 
