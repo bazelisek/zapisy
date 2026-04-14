@@ -105,9 +105,93 @@ export default function TraviciSoustava() {
                   </List>
                 </ListItem>
                 <ListItem>
-                    <List label="Slinné žlázy">
-                        <ListItem>Produkují hlen mucin a ptyalin</ListItem>
-                    </List>
+                  <List label="Slinné žlázy">
+                    <ListItem>Produkují hlen mucin a ptyalin</ListItem>
+                    <ListItem>
+                      Velké slinné žlázy - produkují sliny stále. Příušní,
+                      podjazykové příušní a podčelistní žlázy
+                    </ListItem>
+                    <ListItem>
+                      Malé slinné žlázy - produkují sliny při podnětu
+                    </ListItem>
+                  </List>
+                </ListItem>
+                <ListItem>
+                  <List label="Zuby">
+                    <ListItem>
+                      <List label="Vnitřní stavba">
+                        <ListItem>
+                          Zubovina - základ hmoty zubu, stavbou podobná
+                          kompaktní kostní tkáni
+                        </ListItem>
+                        <ListItem>
+                          Dřeň - obsahuje cévy a nervy, které procházejí zubním
+                          kořenem, zajistuje vyzivu
+                        </ListItem>
+                        <ListItem>
+                          Sklovina - kryje a chrání korunku, vysoký podíl
+                          anorganických látek - velmi tvrá
+                        </ListItem>
+                        <ListItem>
+                          Tmel (Cement) - Na povrchu kořene, upevňuje zub k
+                          čelisti
+                        </ListItem>
+                      </List>
+                    </ListItem>
+                    <ListItem>
+                      <List label="Vnější stavba">
+                        <ListItem>Kořen</ListItem>
+                        <ListItem>Krček</ListItem>
+                        <ListItem>Korunka</ListItem>
+                      </List>
+                    </ListItem>
+                    <ListItem>
+                      <List label="Druhy zubů">
+                        <ListItem>
+                          Řezáky - 8, slouží k odtrhávání potravy
+                        </ListItem>
+                        <ListItem>
+                          Špičáky - 4, slouží k trhání potravy
+                        </ListItem>
+                        <ListItem>
+                          Třenové zuby - 8, slouží k drcení a rozmělňování
+                          potravy
+                        </ListItem>
+                        <ListItem>
+                          Stoličky - 12, slouží k drcení a rozmělňování potravy
+                        </ListItem>
+                      </List>
+                    </ListItem>
+                    <ListItem>
+                      Zubní kaz - narušení zubní skloviny působením bakterií,
+                      které rozkládají cukry a produkují kyseliny, které
+                      poškozují sklovinu
+                    </ListItem>
+                    <ListItem>
+                      Paradentóza - chronické zánětlivé onemocnění dásní a
+                      okolních tkání, které může vést k obnažování krčků a
+                      uvolnění zubů. Způosbeno bakteriemi.
+                    </ListItem>
+                  </List>
+                </ListItem>
+                <ListItem>
+                  <List label="Hltan">
+                    <ListItem>
+                      <List label="části">
+                        <ListItem>Nosohltan</ListItem>
+                        <ListItem>Ústní část</ListItem>
+                        <ListItem>Hrtanová část</ListItem>
+                      </List>
+                      
+                    </ListItem>
+                    <ListItem>
+                      Ústní a hrtanová část má nerohovatějící a mnohovrstevnatý epitel
+                    </ListItem>
+                    <ListItem>Nosní část - Řasinkový víceřadý epitel</ListItem>
+                    <ListItem>
+                      Hltan je tvořen příčně pruhovanými svaly, které se podílejí na polykání potravy
+                    </ListItem>
+                  </List>
                 </ListItem>
               </List>
             </ListItem>
@@ -124,6 +208,8 @@ export default function TraviciSoustava() {
         <ListItem>Slepé střevo</ListItem>
         <ListItem>Dvanáctník</ListItem>
       </List>
+      <Separator></Separator>
+      <img src="/zub-skladba-1.jpg"></img>
       <Separator />
       <List label="Trávící trubice">
         <ListItem>
