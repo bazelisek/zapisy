@@ -2,6 +2,7 @@ import List from "@/components/elements/List";
 import ListItem from "@/components/elements/ListItem";
 import NoteAccordion from "@/components/elements/NoteAccordion";
 import Typography from "@/components/elements/Typography";
+import { ArrowUp } from "@gravity-ui/icons";
 import { Separator } from "@heroui/react";
 
 export default function Trh() {
@@ -32,8 +33,28 @@ export default function Trh() {
           </List>
         </div>
       </NoteAccordion>
-      <Typography>Substitut - zboží, které může být použito místo jiného zboží</Typography>
-      <Typography>Důchodový efekt - s rostoucí cenou a stejným důchodem klesá poptávka</Typography>
+      <Typography>
+        Substitut - zboží, které může být použito místo jiného zboží
+      </Typography>
+      <Typography>
+        Důchodový efekt - s rostoucí cenou a stejným důchodem klesá poptávka
+      </Typography>
+      <NoteAccordion summary="Poptávané množství x Obchodované množství">
+        <Typography>Poptávané množství - zamýšlené, aby se prodalo</Typography>
+        <Typography>
+          Obchodované množství - skutečné množství, které se prodalo
+        </Typography>
+      </NoteAccordion>
+      <Typography level="h4">
+        Faktory (činitelé), které ovlivňují posun poptávkové křivky.
+      </Typography>
+      <List label="Faktory posunu poptávkové křivky">
+        <ListItem>Ceny příbuzných výrobků - substitut/komplement</ListItem>
+        <ListItem>Výše důchodu (liší se zboží nezbytné, zbytné a luxusní)</ListItem>
+        <ListItem>Móda, preference</ListItem>
+        <ListItem>Demografická struktura obyvatelstva</ListItem>
+        <ListItem>Očekávání spotřebitele</ListItem>
+      </List>
     </div>
   );
 }
