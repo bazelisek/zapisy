@@ -2,6 +2,7 @@ import NoteAccordion from "@/components/elements/NoteAccordion";
 import Typography from "@/components/elements/Typography";
 import { Separator } from "@heroui/react";
 import { HandStop } from "@gravity-ui/icons";
+import DateMark from "@/components/blocks/DateMark";
 
 export default function PredWW2() {
   return (
@@ -28,11 +29,23 @@ export default function PredWW2() {
         hranice východní, což do budoucna představovalo bezpečnostní problém pro
         ČS. Fr tímto výrazně oslabila své pozice ve střední Evropě.
       </Typography>
-      <NoteAccordion
-        icon={<HandStop />}
-        summary="Vznik NSDAP a nástup Hitlera"
-      >
-        <Typography>Hitler</Typography>
+      <DateMark>16.4.2026</DateMark>
+      <NoteAccordion icon={<HandStop />} summary="Vznik NSDAP a role Hitlera">
+        <Typography>
+          Hitler se po válce chvilku velmi těžce protloukal, ale poté našel
+          zaměstnání v armádní rozvědce. Tam dostal za úkol sledování strany DAP
+          (Deutsche Arbeit Partei).
+        </Typography>
+        <Typography>
+          Ta se mu natolik zalíbila, že do ní vstoupil a do roku 1920 v ní
+          získal klíčové postavení. Tehdy se přejmenovala na NSDAP.
+        </Typography>
+        <Separator />
+        <Typography>
+          V roce 1923 došlo k pokusu o puč, který byl přímo inspirovaný
+          Mussolinim. Hitler asi nebyl hlavním hybatelem, ale rozhodně se
+          účastnil. Puč byl potlačen, Hitler zatčen.
+        </Typography>
       </NoteAccordion>
     </>
   );
