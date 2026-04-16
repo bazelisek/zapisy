@@ -1,3 +1,4 @@
+import DateMark from "@/components/blocks/DateMark";
 import List from "@/components/elements/List";
 import ListItem from "@/components/elements/ListItem";
 import NoteAccordion from "@/components/elements/NoteAccordion";
@@ -20,6 +21,7 @@ export default function Trh() {
       </List>
       <Typography>Cena - jak moc vzácný statek je</Typography>
       <Typography>Plat vs Mzda - Plat - stát, mzda - ostatní</Typography>
+      <Typography level="h4">Poptávka</Typography>
       <NoteAccordion summary="Poptávka">
         <div>
           <Typography>
@@ -50,11 +52,44 @@ export default function Trh() {
       </Typography>
       <List label="Faktory posunu poptávkové křivky">
         <ListItem>Ceny příbuzných výrobků - substitut/komplement</ListItem>
-        <ListItem>Výše důchodu (liší se zboží nezbytné, zbytné a luxusní)</ListItem>
+        <ListItem>
+          Výše důchodu (liší se zboží nezbytné, zbytné a luxusní)
+        </ListItem>
         <ListItem>Móda, preference</ListItem>
         <ListItem>Demografická struktura obyvatelstva</ListItem>
         <ListItem>Očekávání spotřebitele</ListItem>
       </List>
+      <DateMark>16.4.2026</DateMark>
+      <Typography level="h4">Nabídka</Typography>
+      <NoteAccordion summary="Nabídka">
+        <div>
+          <Typography>
+            Ochota prodávajícího prodávat určité množství zboží za určitou cenu
+            (v určitém čase)
+          </Typography>
+          <List label="Typy nabídky">
+            <ListItem>Individuální nabídka (1 ={">"} 1)</ListItem>
+            <ListItem>Celková nabídka (všichni ={">"} 1)</ListItem>
+            <ListItem>Agregátní nabídka (všichni ={">"} všechno)</ListItem>
+          </List>
+        </div>
+      </NoteAccordion>
+      <Typography>Čím větší je cena, tím větší je množství zboží na trhu(nabídka) - parabolický tvar křivky.</Typography>
+      <List label="Faktory posunu křivky nabídky">
+        <ListItem>Cena je větší - víc prodávajících vstupuje na trh</ListItem>
+        <ListItem>Změna struktury výroby</ListItem>
+      </List>
+      <List label="Faktory posunu křivky nabídky (cena neměnná)">
+        <ListItem>Ceny vstupu do výroby</ListItem>
+        <ListItem>Technologie</ListItem>
+        <ListItem>Ceny alternativ</ListItem>
+        <ListItem>Úrodný vs neúrodný rok</ListItem>
+        <ListItem>Očekávání trhu</ListItem>
+        <ListItem>Počet firem na trhu</ListItem>
+        <ListItem>Podmínky výroby</ListItem>
+      </List>
+      <Typography level="h4">Rovnováha na trhu</Typography>
+      <Typography>bod E - (ekvilibrum) rovnovážný bod: kde se střetává poptávková a nabídková křivka</Typography>
     </div>
   );
 }
