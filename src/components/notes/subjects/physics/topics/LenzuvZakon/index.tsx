@@ -1,3 +1,5 @@
+import DateMark from "@/components/blocks/DateMark";
+import NoteAccordion from "@/components/elements/NoteAccordion";
 import Typography from "@/components/elements/Typography";
 import { Separator } from "@heroui/react";
 import { InlineMath } from "react-katex";
@@ -24,6 +26,14 @@ export default function LenzuvZakon() {
       <InlineMath math="\phi = B \cdot S \cdot \cos(\alpha)">
         $\phi = B \cdot S \cdot \cos(\alpha)$
       </InlineMath>
+      <br />
+      <InlineMath math="U_i = (\Delta\phi)/(\Delta t) = (\Delta B*S*cos(\alpha))/(\Delta t)" />
+      <DateMark>20.4.2026</DateMark>
+      <NoteAccordion summary="Indukčnost cívky">
+        <InlineMath math="L=\mu_0 N^2 * S / l"></InlineMath>
+        <br></br>
+        <InlineMath math="[L] = H (Henry)"></InlineMath>
+      </NoteAccordion>
     </div>
   );
 }
