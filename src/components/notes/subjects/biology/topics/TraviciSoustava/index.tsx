@@ -1,7 +1,7 @@
 import List from "@/components/elements/List";
 import ListItem from "@/components/elements/ListItem";
 import Typography from "@/components/elements/Typography";
-import { Separator } from "@heroui/react";
+import { Separator, Tooltip } from "@heroui/react";
 
 export default function TraviciSoustava() {
   return (
@@ -182,14 +182,15 @@ export default function TraviciSoustava() {
                         <ListItem>Ústní část</ListItem>
                         <ListItem>Hrtanová část</ListItem>
                       </List>
-                      
                     </ListItem>
                     <ListItem>
-                      Ústní a hrtanová část má nerohovatějící a mnohovrstevnatý epitel
+                      Ústní a hrtanová část má nerohovatějící a mnohovrstevnatý
+                      epitel
                     </ListItem>
                     <ListItem>Nosní část - Řasinkový víceřadý epitel</ListItem>
                     <ListItem>
-                      Hltan je tvořen příčně pruhovanými svaly, které se podílejí na polykání potravy
+                      Hltan je tvořen příčně pruhovanými svaly, které se
+                      podílejí na polykání potravy
                     </ListItem>
                   </List>
                 </ListItem>
@@ -197,9 +198,87 @@ export default function TraviciSoustava() {
             </ListItem>
           </List>
         </ListItem>
-        <ListItem>Jícen</ListItem>
-        <ListItem>Žaludek</ListItem>
-        <ListItem>Střeva (tenké a tlusté)</ListItem>
+        <ListItem>
+          <List label="Jícen">
+            <ListItem>25-30cm</ListItem>
+            <ListItem>Horní část jícnu - příčně pruhovaná</ListItem>
+            <ListItem>
+              V prostřední části jícnu se začíná přidávat příčně pruhovaná
+              svalovina
+            </ListItem>
+            <ListItem>Dole již jen hladká</ListItem>
+            <ListItem>Sousto se pohybuje peristaltickými pohyby</ListItem>
+            {/*Text. TextColor*/}
+          </List>
+        </ListItem>
+        <ListItem>
+          <List label="Žaludek">
+            <ListItem>
+              <List label="Části">
+                <ListItem>Česlo</ListItem>
+                <ListItem>Klenba</ListItem>
+                <ListItem>Tělo</ListItem>
+                <ListItem>Vrátník</ListItem>
+                <ListItem>Malá křivina (Kurvatura minor)</ListItem>
+                <ListItem>Velká křivina (Kurvatura major)</ListItem>
+              </List>
+            </ListItem>
+            <ListItem>
+              <List label="Vnitřní stavba">
+                <ListItem>
+                  Jednovrstevný cylindrický epitel - vytváří sliz
+                </ListItem>
+                <ListItem>
+                  Povrch sliznice je rozdělen do malých políček v jejichž centru
+                  jsou jamky, do kterých vedou žlázy
+                </ListItem>
+                <ListItem>
+                  Hlenové buňky - mucin - chrání před požkozením žaludečními
+                  šťavami
+                </ListItem>
+                <ListItem>
+                  Zymogenní buňky - žaludeční šťáva s enzymy - lipáza (štěpí
+                  tuky), prokáza (štěpí bílkoviny)
+                </ListItem>
+                <ListItem>Krycí buňky - HCl</ListItem>
+                <ListItem>Endokrinní buňky - gastrin</ListItem>
+              </List>
+            </ListItem>
+          </List>
+        </ListItem>
+        <ListItem>
+          <List label="Střeva (tenké a tlusté)">
+            <ListItem>
+              <List label="funkce">
+                <ListItem>Chemické trávení potravy</ListItem>
+                <ListItem>Vstřebávání živin</ListItem>
+                <ListItem>Posun nestrávených zbytků do konečníku</ListItem>
+              </List>
+            </ListItem>
+            <ListItem>
+              <List label="Tenké střevo">
+                <ListItem>
+                  <List label="Dvanáctník">
+                    <ListItem>20-25 cm, 10% tenkého střeva</ListItem>
+                    <ListItem>Ústí vývod ze žlučovodu a slinivky</ListItem>
+                  </List>
+                </ListItem>
+                <ListItem>Lačník - 40%</ListItem>
+                <ListItem>Kyčelník - 50% tenkého střeva</ListItem>
+                <ListItem>Chymus - tr8venina</ListItem>
+                <ListItem>
+                  Klky,{" "}
+                  <Tooltip delay={0.1}>
+                    <Tooltip.Content>buněčný level</Tooltip.Content>
+                    <Tooltip.Trigger>Mikroklky</Tooltip.Trigger>
+                  </Tooltip>{" "}
+                  - zvyšují povrch
+                </ListItem>
+                <ListItem>Enterocyty - vstřeb. fce - střevní šťávy, miláza, proteázy</ListItem>
+              </List>
+            </ListItem>
+          </List>
+        </ListItem>
         <ListItem>Játra</ListItem>
         <ListItem>Slinivka břišní</ListItem>
         <ListItem>Žlučník</ListItem>
