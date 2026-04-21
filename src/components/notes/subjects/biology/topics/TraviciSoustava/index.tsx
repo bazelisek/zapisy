@@ -1,11 +1,14 @@
+import DateMark from "@/components/blocks/DateMark";
 import List from "@/components/elements/List";
 import ListItem from "@/components/elements/ListItem";
+import NoteAccordion from "@/components/elements/NoteAccordion";
 import Typography from "@/components/elements/Typography";
 import { Separator, Tooltip } from "@heroui/react";
 
 export default function TraviciSoustava() {
   return (
     <div>
+      <DateMark>14.4., 20.4., 21.4.2026</DateMark>
       <h2>Funkce</h2>
       <List label="Funkce" variant="ol">
         <ListItem>Příjem a zpracování potravy (chemické a mechanické)</ListItem>
@@ -275,12 +278,35 @@ export default function TraviciSoustava() {
                   - zvyšují povrch
                 </ListItem>
                 <ListItem>Enterocyty - vstřeb. fce - střevní šťávy, miláza, proteázy</ListItem>
+                 <ListItem>Hlenové buňky - mucin</ListItem>
+                 <ListItem>Endokrinní bunky - sekretin</ListItem>
+                 <ListItem>Nediferencované buňky = kmenové</ListItem>
+                 <ListItem>Lieberkuhnovy krypty - klky, ale dovnitř</ListItem>
+                 <ListItem>chlopen zabranujici potrave ve vstuppu do slepho sstreva</ListItem>
+              </List>
+            </ListItem>
+            <ListItem>
+              <List label="Tluste střevo">
+                <ListItem>
+                  <List label="Fce">
+                    <ListItem>Vstrebani vody, zahusteni potravy</ListItem>
+                    <ListItem>Vypuzeni nestravenych zbytku</ListItem>
+                  </List>
+                </ListItem>
+              </List>
+            </ListItem>
+            <ListItem>
+              <List label="Slepe střevo">
+                <ListItem>
+                  Nachází se před vyústěním tenkého střeva do tlustého
+                </ListItem>
+                 <ListItem>Appendix - červovitý výběžek - rudiment, zánět slepého střeva</ListItem>
               </List>
             </ListItem>
           </List>
         </ListItem>
         <ListItem>Játra</ListItem>
-        <ListItem>Slinivka břišní</ListItem>
+        <ListItem><List label="Slinivka břišní"><ListItem>Endokrinní i exokrinní funkce</ListItem><ListItem>Pankreatická šťáva</ListItem></List></ListItem>
         <ListItem>Žlučník</ListItem>
         <ListItem>Konečník</ListItem>
         <ListItem>Hltan</ListItem>
