@@ -90,6 +90,13 @@ export default function Trh() {
       </List>
       <Typography level="h4">Rovnováha na trhu</Typography>
       <Typography>bod E - (ekvilibrum) rovnovážný bod: kde se střetává poptávková a nabídková křivka</Typography>
+      <DateMark>21.4.2026</DateMark>
+      <Typography>Celková elasticita poptávky</Typography>
+      <Typography>elastická poptávka</Typography>
+      <Typography>Giffenuv efakt, neelasticka popatvka 1% nevim kura nedavam pozor a je mi to u prdele</Typography>
+      <Typography>Náklady - v penězích vyjádřena spotřeba výrobních činitelů</Typography>
+      <Typography>Implicitní náklady</Typography>
+      <Typography>účetní zisk, čistý ekonomický zisk</Typography>
     </div>
   );
 }
