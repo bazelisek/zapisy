@@ -3,6 +3,7 @@ import List from "@/components/elements/List";
 import ListItem from "@/components/elements/ListItem";
 import NoteAccordion from "@/components/elements/NoteAccordion";
 import Typography from "@/components/elements/Typography";
+import L from "@/components/shorts/L";
 import { Separator } from "@heroui/react";
 
 export default function MUS20s() {
@@ -74,82 +75,107 @@ export default function MUS20s() {
         <DateMark>21.4.2026</DateMark>
         <Typography>Amade Modigiani</Typography>
         <Typography>Marc Chagall - rodne mesto, vzpominky</Typography>
-        <Separator />
-        <NoteAccordion summary="Kubismus">
-          <List collapsible={false}>
-            <ListItem>Odklon od realistického zobrazování</ListItem>
-            <ListItem>
-              <List label="Analytické období">
-                <ListItem>Rozklad předmětů na tvary, linie</ListItem>
-                <ListItem>Omezen barevnost - šedá, hnědá</ListItem>
-                <ListItem>Zátiší, portréty, koláže</ListItem>
-              </List>
-            </ListItem>
-            <ListItem>
-              <List label="Syntetické období">
-                <ListItem>
-                  Vliv na architekturu - fukncionalismus, purismus,
-                  konstriktivismu
-                </ListItem>
-                <ListItem>Obnovená barevnost</ListItem>
-                <ListItem>Zátiší, portréty, koláže</ListItem>
-              </List>
-            </ListItem>
-            <ListItem>
-              <List label="autoři">
-                <ListItem>Pablo Picasso</ListItem>
-                <ListItem>Georges Braque</ListItem>
-                <ListItem>Alexandr Archipenko - socha5</ListItem>
-              </List>
-            </ListItem>
-            <ListItem>
-              <List label="Kubismus u nás">
-                <ListItem>Bohumil Kubišta</ListItem>
-                <ListItem>Emil Filla</ListItem>
-                <ListItem>Ottog Gutfreund</ListItem>
-                <ListItem>Vincenc Beneš</ListItem>
-                <ListItem>
-                  <List label="Tvrdošíjní">
-                    <ListItem>Josef Čapek</ListItem>
-                    <ListItem>Václav Špála</ListItem>
-                    <ListItem>Rudolf Kremlička</ListItem>
-                  </List>
-                </ListItem>
-              </List>
-            </ListItem>
-          </List>
-        </NoteAccordion>
-        <NoteAccordion summary="Futurismus">
-          <List collapsible={false}>
-            <ListItem>Manifest futuristické poezie</ListItem>
-            <ListItem>
-              Současnost, velkoměsto, krása strojů, rychlost - automobily a
-              letadla
-            </ListItem>
-            <ListItem>Itálie</ListItem>
-            <ListItem>Rusko</ListItem>
-            <ListItem>"Válka je hygienou světa"</ListItem>
-            <ListItem>"Zbořte muzea"</ListItem>
-            <ListItem>fašismus</ListItem>
-            <ListItem>
-              <List label="autoři">
-                <ListItem>Giacamo Balla</ListItem>
-                <ListItem>Luigi Russolo</ListItem>
-              </List>
-            </ListItem>
-          </List>
-        </NoteAccordion>
-        <NoteAccordion summary="Abstrakce - nefigurativní umění">
-          <List collapsible={false}>
-            <ListItem>De Stijl</ListItem>
-            <ListItem>Piet Mondrian</ListItem>
-            <ListItem>Kazimír Malevič</ListItem>
-          </List>
-        </NoteAccordion>
-        <NoteAccordion summary="Dadaismus">
-          <ListItem>Tristan Tzaza</ListItem>
-          <ListItem>Marcel Duchamp</ListItem>
-        </NoteAccordion>
+      </NoteAccordion>
+      <NoteAccordion summary="Kubismus">
+        <List collapsible={false}>
+          <ListItem>Odklon od realistického zobrazování</ListItem>
+          <ListItem>
+            <List label="Analytické období">
+              <ListItem>Rozklad předmětů na tvary, linie</ListItem>
+              <ListItem>Omezen barevnost - šedá, hnědá</ListItem>
+              <ListItem>Zátiší, portréty, koláže</ListItem>
+            </List>
+          </ListItem>
+          <ListItem>
+            <List label="Syntetické období">
+              <ListItem>
+                Vliv na architekturu - fukncionalismus, purismus,
+                konstriktivismu
+              </ListItem>
+              <ListItem>Obnovená barevnost</ListItem>
+              <ListItem>Zátiší, portréty, koláže</ListItem>
+            </List>
+          </ListItem>
+          <ListItem>
+            <List label="autoři">
+              <ListItem>Pablo Picasso</ListItem>
+              <ListItem>Georges Braque</ListItem>
+              <ListItem>Alexandr Archipenko - socha5</ListItem>
+            </List>
+          </ListItem>
+          <ListItem>
+            <List label="Kubismus u nás">
+              <ListItem>Bohumil Kubišta</ListItem>
+              <ListItem>Emil Filla</ListItem>
+              <ListItem>Ottog Gutfreund</ListItem>
+              <ListItem>Vincenc Beneš</ListItem>
+              <ListItem>
+                <List label="Tvrdošíjní">
+                  <ListItem>Josef Čapek</ListItem>
+                  <ListItem>Václav Špála</ListItem>
+                  <ListItem>Rudolf Kremlička</ListItem>
+                </List>
+              </ListItem>
+            </List>
+          </ListItem>
+        </List>
+      </NoteAccordion>
+      <NoteAccordion summary="Futurismus">
+        <List collapsible={false}>
+          <ListItem>Manifest futuristické poezie</ListItem>
+          <ListItem>
+            Současnost, velkoměsto, krása strojů, rychlost - automobily a
+            letadla
+          </ListItem>
+          <ListItem>Itálie</ListItem>
+          <ListItem>Rusko</ListItem>
+          <ListItem>"Válka je hygienou světa"</ListItem>
+          <ListItem>"Zbořte muzea"</ListItem>
+          <ListItem>fašismus</ListItem>
+          <ListItem>
+            <List label="autoři">
+              <ListItem>Giacamo Balla</ListItem>
+              <ListItem>Luigi Russolo</ListItem>
+            </List>
+          </ListItem>
+        </List>
+      </NoteAccordion>
+      <NoteAccordion summary="Abstrakce - nefigurativní umění">
+        <List collapsible={false}>
+          <ListItem>De Stijl</ListItem>
+          <ListItem>Piet Mondrian</ListItem>
+          <ListItem>Kazimír Malevič</ListItem>
+        </List>
+      </NoteAccordion>
+      <NoteAccordion summary="Dadaismus">
+        <ListItem>Tristan Tzaza</ListItem>
+        <ListItem>Marcel Duchamp</ListItem>
+        <ListItem>Kurt Schwiter</ListItem>
+        <ListItem>Man Ray</ListItem>
+        <ListItem>Hans Arp</ListItem>
+      </NoteAccordion>
+      <NoteAccordion summary="Surrealismus">
+        <List>
+          <ListItem>Andaluský pes</ListItem>
+          <ListItem>Magnetická pole</ListItem>
+          <ListItem>Automatická kresba, a. text, asociace představ</ListItem>
+          <ListItem>Výklad snů</ListItem>
+          <ListItem>Guillaume Appolinaire</ListItem>
+          <ListItem>André Breton 1924, 32, 42</ListItem>
+          <ListItem>Philip Soupault</ListItem>
+          <L>Salvador Dalí</L>
+          <L>René Magritte</L>
+          <L>Max Ernst</L>
+          <L>Luis Bunuel - Andaluský pes</L>
+          <L>André Masson</L>
+          <L>Joan Miró</L>
+        </List>
+        <List label={<h5>Pásmo</h5>}>
+          <L>Lyrická báseň</L>
+          <L>Polytematická - lyrický subjekt</L>
+          <L>Asociace představ</L>
+        </List>
+        
       </NoteAccordion>
     </div>
   );
