@@ -3,6 +3,7 @@ import List from "@/components/elements/List";
 import ListItem from "@/components/elements/ListItem";
 import NoteAccordion from "@/components/elements/NoteAccordion";
 import Typography from "@/components/elements/Typography";
+import L from "@/components/shorts/L";
 import { Separator, Tooltip } from "@heroui/react";
 
 export default function TraviciSoustava() {
@@ -277,12 +278,16 @@ export default function TraviciSoustava() {
                   </Tooltip>{" "}
                   - zvyšují povrch
                 </ListItem>
-                <ListItem>Enterocyty - vstřeb. fce - střevní šťávy, miláza, proteázy</ListItem>
-                 <ListItem>Hlenové buňky - mucin</ListItem>
-                 <ListItem>Endokrinní bunky - sekretin</ListItem>
-                 <ListItem>Nediferencované buňky = kmenové</ListItem>
-                 <ListItem>Lieberkuhnovy krypty - klky, ale dovnitř</ListItem>
-                 <ListItem>chlopen zabranujici potrave ve vstuppu do slepho sstreva</ListItem>
+                <ListItem>
+                  Enterocyty - vstřeb. fce - střevní šťávy, miláza, proteázy
+                </ListItem>
+                <ListItem>Hlenové buňky - mucin</ListItem>
+                <ListItem>Endokrinní bunky - sekretin</ListItem>
+                <ListItem>Nediferencované buňky = kmenové</ListItem>
+                <ListItem>Lieberkuhnovy krypty - klky, ale dovnitř</ListItem>
+                <ListItem>
+                  chlopen zabranujici potrave ve vstuppu do slepho sstreva
+                </ListItem>
               </List>
             </ListItem>
             <ListItem>
@@ -300,13 +305,20 @@ export default function TraviciSoustava() {
                 <ListItem>
                   Nachází se před vyústěním tenkého střeva do tlustého
                 </ListItem>
-                 <ListItem>Appendix - červovitý výběžek - rudiment, zánět slepého střeva</ListItem>
+                <ListItem>
+                  Appendix - červovitý výběžek - rudiment, zánět slepého střeva
+                </ListItem>
               </List>
             </ListItem>
           </List>
         </ListItem>
         <ListItem>Játra</ListItem>
-        <ListItem><List label="Slinivka břišní"><ListItem>Endokrinní i exokrinní funkce</ListItem><ListItem>Pankreatická šťáva</ListItem></List></ListItem>
+        <ListItem>
+          <List label="Slinivka břišní">
+            <ListItem>Endokrinní i exokrinní funkce</ListItem>
+            <ListItem>Pankreatická šťáva</ListItem>
+          </List>
+        </ListItem>
         <ListItem>Žlučník</ListItem>
         <ListItem>Konečník</ListItem>
         <ListItem>Hltan</ListItem>
@@ -324,6 +336,68 @@ export default function TraviciSoustava() {
         <ListItem>Počátek a konec ektoderm.</ListItem>
         <ListItem>K trubici připojeny žlázy</ListItem>
       </List>
+      <DateMark>28.4.2026</DateMark>
+      <L l label="Slinivka břišní">
+        <L>Hlava, krček, tělo ocas</L>
+        <L l label="Exokrinní oddíl">
+          <L>Žlázový parenchym</L>
+          <L>Produkce pankreatické šťávy</L>
+          <L l label="Enzymy">
+            <L l label="Proteázy">
+              <L>Trypsinogen -{">"} tripsin</L>
+              <L>Chymotrypsinogen -{">"} Chymotripsin</L>
+            </L>
+            <L>Pankreatické lipázy (tuky)</L>
+            <L>Pankreatické amylázy (sacharidy)</L>
+          </L>
+        </L>
+        <L l label="Endokrinní oddíl">
+          <L l label="Langerhansovy ostrůvky">
+            <L>Inzulin, glukagon (metabolismus sacharidů)</L>
+          </L>
+        </L>
+        <L>Vyvody - hlavní, přídatný</L>
+      </L>
+      <L l label="Játra (hepar)">
+        <L>Váží až 1,5kg</L>
+        <L>Uložena pod pravou brániční klenbou</L>
+        <L>částečně srostlé s brániicí</L>
+        <L l label="4 laloky">
+          <L>Pravý</L>
+          <L>Levý</L>
+          <L>Čtverhranný</L>
+          <L>Ocasatý</L>
+        </L>
+        <L l label="Základní stavební jednotkou - jaterní lalůček">
+          <L>Má tvar šestiúhleníku</L>
+          <L>Uprostřed je centrální žíla</L>
+          <L>Ta vede do jaterní žíly</L>
+          <L
+            l
+            label="Na styku tří jaterních lalůčků je jatern (portální) triáda"
+          >
+            <L>Jaterní tepna</L>
+            <L>Vrátnicová žíla</L>
+            <L>Žlučové kanálky</L>
+          </L>
+          <L l label="Skládá se z jaterních buněk - Hepatocyty">
+            <L>Vytvářejí jaterní parenchym</L>
+          </L>
+          <L l label="Kupferovy buňky">
+            <L>"Makrofágové"</L>
+            <L>Fagocytóza - pohlcování částeček and shit</L>
+          </L>
+        </L>
+        <L l label="Funkce">
+          <L>Vylučování a sekrece</L>
+          <L>Skladování</L>
+          <L>Termoregulace</L>
+          <L>Detoxifikace</L>
+          <L>Syntéza</L>
+          <L>Metabolismus</L>
+        </L>
+      </L>
+      <Typography variant="note">Pyčee kolik toho kurva jeeeeee</Typography>
     </div>
   );
 }

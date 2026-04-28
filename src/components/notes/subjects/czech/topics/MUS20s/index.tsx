@@ -177,6 +177,9 @@ export default function MUS20s() {
         </List>
         
       </NoteAccordion>
+      <DateMark>28.4.2026</DateMark>
+      <Typography variant="note">Hovno se stalo</Typography>
+      
     </div>
   );
 }
