@@ -34,6 +34,9 @@ export default function LenzuvZakon() {
         <br></br>
         <InlineMath math="[L] = H (Henry)"></InlineMath>
       </NoteAccordion>
+      <DateMark>29.4.2026</DateMark>
+      <Typography variant="note">Příklad</Typography>
+      <InlineMath math="I_i = U_i / R = \frac{\frac{\Delta\phi}{\Delta t}}{R} = \frac{\Delta S \cdot B}{\Delta t \cdot R}" />
     </div>
   );
 }
