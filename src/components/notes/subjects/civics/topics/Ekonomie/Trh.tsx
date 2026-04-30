@@ -3,6 +3,7 @@ import List from "@/components/elements/List";
 import ListItem from "@/components/elements/ListItem";
 import NoteAccordion from "@/components/elements/NoteAccordion";
 import Typography from "@/components/elements/Typography";
+import L from "@/components/shorts/L";
 import { ArrowUp } from "@gravity-ui/icons";
 import { Separator } from "@heroui/react";
 
@@ -74,7 +75,10 @@ export default function Trh() {
           </List>
         </div>
       </NoteAccordion>
-      <Typography>Čím větší je cena, tím větší je množství zboží na trhu(nabídka) - parabolický tvar křivky.</Typography>
+      <Typography>
+        Čím větší je cena, tím větší je množství zboží na trhu(nabídka) -
+        parabolický tvar křivky.
+      </Typography>
       <List label="Faktory posunu křivky nabídky">
         <ListItem>Cena je větší - víc prodávajících vstupuje na trh</ListItem>
         <ListItem>Změna struktury výroby</ListItem>
@@ -89,14 +93,49 @@ export default function Trh() {
         <ListItem>Podmínky výroby</ListItem>
       </List>
       <Typography level="h4">Rovnováha na trhu</Typography>
-      <Typography>bod E - (ekvilibrum) rovnovážný bod: kde se střetává poptávková a nabídková křivka</Typography>
+      <Typography>
+        bod E - (ekvilibrum) rovnovážný bod: kde se střetává poptávková a
+        nabídková křivka
+      </Typography>
       <DateMark>21.4.2026</DateMark>
       <Typography>Celková elasticita poptávky</Typography>
       <Typography>elastická poptávka</Typography>
-      <Typography>Giffenuv efakt, neelasticka popatvka 1% nevim kura nedavam pozor a je mi to u prdele</Typography>
-      <Typography>Náklady - v penězích vyjádřena spotřeba výrobních činitelů</Typography>
+      <Typography>
+        Giffenuv efakt, neelasticka popatvka 1% nevim kura nedavam pozor a je mi
+        to u prdele
+      </Typography>
+      <Typography>
+        Náklady - v penězích vyjádřena spotřeba výrobních činitelů
+      </Typography>
       <Typography>Implicitní náklady</Typography>
       <Typography>účetní zisk, čistý ekonomický zisk</Typography>
+      <DateMark>30.4.2026</DateMark>
+      <List>
+        <L>
+          Mezní náklady - přírůstek celkových nákladů dosažený výrobou další
+          přidané jednotky produktu
+        </L>
+        <L>
+          Mezní příjem - přírůstek celkového příjmu dosažený výrobou a prodejem
+          další dodatečné jednotky produktu
+        </L>
+        <L l label="Struktura trhu - souhrn podmínek, které charakterizují trh">
+          <L>Počet firem na trhu s daným produktem</L>
+          <L>Velikost firmy</L>
+          <L>Povaha produktu</L>
+          <L>Vstup do odvětví</L>
+          <L l label="4 tržní stuktury">
+            <L l label="Dokonalá konkurence"><L>Velký počet malých firem, stejnorodý výrobek, snadný vstup</L></L>
+            <L l label="Monopol"><L>1 velká firma, nesnadný vstup</L></L>
+            <L l label="Oligopol"><L>Tajná dohoda o cenách</L></L>
+            <L l label="Monopolistická konkurence"><L>...</L></L>
+          </L>
+        </L>
+      </List>
+      <Typography>
+        Dokude je mezní příjem vyšší než mezní náklady, prodávající cenu snižuje
+        až do situace kdy se téměř rovnají
+      </Typography>
     </div>
   );
 }
