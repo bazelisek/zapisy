@@ -37,6 +37,22 @@ export default function LenzuvZakon() {
       <DateMark>29.4.2026</DateMark>
       <Typography variant="note">Příklad</Typography>
       <InlineMath math="I_i = U_i / R = \frac{\frac{\Delta\phi}{\Delta t}}{R} = \frac{\Delta S \cdot B}{\Delta t \cdot R}" />
+      <h3>Přechodný děj</h3>
+      <Typography>
+        Při přechodném ději se mění proud v obvodu, a tím i magnetické pole.
+        Indukovaný proud se snaží zabránit této změně.
+      </Typography>
+      <Separator/>
+      <h3>Energie cívky</h3>
+      <Typography>V elektrickém obvodu je zdroj elektromotorického napětí sourčasně také zdrojem energie</Typography>
+      <InlineMath math="\Delta E = U_e \cdot \Delta t \cdot I"></InlineMath><br/>
+      <InlineMath math="U_e + L \frac{\Delta I}{\Delta t} = R \cdot I"></InlineMath><br/>
+      <InlineMath math="U_e = - \frac{\Delta \phi}{\Delta t}"></InlineMath><br/>
+      <InlineMath math="U_e = \frac{L \Delta I}{\Delta t}"></InlineMath><br/>
+      <InlineMath math="E_m = \frac{1}{2} \phi I"></InlineMath><br/>
+      <InlineMath math="\phi = L \cdot I"></InlineMath><br/>
+      <strong><InlineMath math="E = \frac{1}{2} L I^2"></InlineMath><br/></strong>
+      
     </div>
   );
 }
