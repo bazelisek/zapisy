@@ -396,6 +396,10 @@ export default function TraviciSoustava() {
           <L>Syntéza</L>
           <L>Metabolismus</L>
         </L>
+        <L l label="Na spodní straně se nachází Žlučník">
+          <L>Produkuje Žluč</L>
+          <L>Ta se pak dostává pomocí žlučovodu do dvanáctníku</L>
+        </L>
       </L>
       <Typography variant="note">Pyčee kolik toho kurva jeeeeee</Typography>
     </div>
