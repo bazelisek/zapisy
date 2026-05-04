@@ -44,6 +44,12 @@ export default function AlkenyAlkyny() {
           <a href="/materials/Alkeny_alkyny2.pdf">Open PDF</a>
         </p>
       </object>
+      <Separator></Separator>
+      <InlineMath math="CH_3-CH-CH=CH_3 + Cl_2 -> CH_3-CHCl-CH_2Cl" />
+      <InlineMath math="CH_3-CH-CH=CH_3 + HBr -> CH_3-CH_2Br-CH_2" />
+      <InlineMath math="CH_3-CH-CH=CH_3 + HCl -> CH_3-CH_2Cl-CH_2" />
+      <InlineMath math="CH_3-CH-CH=CH_3 + HBr -> CH_3-CH_2-CH_2Br" />
+
     </div>
   );
 }
