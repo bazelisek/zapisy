@@ -128,14 +128,26 @@ export default function Trh() {
             <L l label="Dokonalá konkurence"><L>Velký počet malých firem, stejnorodý výrobek, snadný vstup</L></L>
             <L l label="Monopol"><L>1 velká firma, nesnadný vstup</L></L>
             <L l label="Oligopol"><L>Tajná dohoda o cenách</L></L>
-            <L l label="Monopolistická konkurence"><L>...</L></L>
+            <L l label="Monopolistická konkurence"><L>Velký počet středně velkých firem, produkt je diferencovaný, vstup možný</L></L>
           </L>
         </L>
+      </List>
+      <DateMark>5.5.2026</DateMark>
+      <List label="Tierlist">
+        <L>Dokonala konkurence</L>
+        <L>Monopolistická konkurence</L>
+        <L>Oligopol</L>
+        <L>Monopol</L>
       </List>
       <Typography>
         Dokude je mezní příjem vyšší než mezní náklady, prodávající cenu snižuje
         až do situace kdy se téměř rovnají
       </Typography>
+      <Typography level="h3">Antimonopolní opatření</Typography>
+      <Typography>19st. Ochrana drobných výrobců</Typography>
+      <Typography>Sou4asnost ochrana spotřebitele</Typography>
+      <Separator />
+      <Typography>ÚOHS - Úřad pro ochranu hospodářské soutěže (antimonopolní úřad)</Typography>
     </div>
   );
 }
