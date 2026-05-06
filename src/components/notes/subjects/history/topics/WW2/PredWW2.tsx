@@ -79,6 +79,15 @@ export default function PredWW2() {
           Antisemitická politika
         </Typography>
         <Typography>Vyloučení židů ze státní správy, univerzit, lékařských a právnických komor. To mělo za cíl podporu emigrace. Odcházeli především mladší, vzdělanější a bohatší.</Typography>
+        <Typography>Do roku 1939 jejich počet v Německu poklesl asi na polovinu. Odešli především ti bohatší, mladší, vzdělanější.</Typography>
+        <Typography>K dalším nátlakovým prostředkům patřil například bojkot židovských obchodů.</Typography>
+        <Typography level="h4">Norimberské rasové zákony: září 1935</Typography>
+        <Typography>Židé byli zbaveni  občanství, zákaz smíšených manželství</Typography>
+        <Typography>Křišťálová noc - 1938 - Největší německý pogrom, který přinesl 91 mrtvých, 7000 vypálených obchodů a synagog, 30k židů odvlečeno do koncentračních  táborů</Typography>
+        <Typography>Arizace - vyvlastňování židovského majetku</Typography>
+        <Typography level="h4">Kultura</Typography>
+        <Typography>Odpor k modernímu umění, které bylo označováno jako zvrlé nebo tzv kulturní bolševismus. Preferován byl romantismus a realismus 19. století.</Typography>
+        <Typography>K propagaci režimu velmi dobře posloužily olympijské hry v Berlíně 1936</Typography>
       </NoteAccordion>
     </>
   );
