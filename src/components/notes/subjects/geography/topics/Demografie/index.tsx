@@ -29,6 +29,7 @@ export default function Demografie() {
                 <L>Poláci</L>
                 <L>Rumuni</L>
                 <L>Bulhaři</L>
+                <L>10% cizinců</L>
             </List>
         </div>
     )
