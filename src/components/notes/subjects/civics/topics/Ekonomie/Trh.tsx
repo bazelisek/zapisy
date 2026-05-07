@@ -125,10 +125,21 @@ export default function Trh() {
           <L>Povaha produktu</L>
           <L>Vstup do odvětví</L>
           <L l label="4 tržní stuktury">
-            <L l label="Dokonalá konkurence"><L>Velký počet malých firem, stejnorodý výrobek, snadný vstup</L></L>
-            <L l label="Monopol"><L>1 velká firma, nesnadný vstup</L></L>
-            <L l label="Oligopol"><L>Tajná dohoda o cenách</L></L>
-            <L l label="Monopolistická konkurence"><L>Velký počet středně velkých firem, produkt je diferencovaný, vstup možný</L></L>
+            <L l label="Dokonalá konkurence">
+              <L>Velký počet malých firem, stejnorodý výrobek, snadný vstup</L>
+            </L>
+            <L l label="Monopol">
+              <L>1 velká firma, nesnadný vstup</L>
+            </L>
+            <L l label="Oligopol">
+              <L>Tajná dohoda o cenách</L>
+            </L>
+            <L l label="Monopolistická konkurence">
+              <L>
+                Velký počet středně velkých firem, produkt je diferencovaný,
+                vstup možný
+              </L>
+            </L>
           </L>
         </L>
       </List>
@@ -145,9 +156,29 @@ export default function Trh() {
       </Typography>
       <Typography level="h3">Antimonopolní opatření</Typography>
       <Typography>19st. Ochrana drobných výrobců</Typography>
-      <Typography>Sou4asnost ochrana spotřebitele</Typography>
+      <Typography>Současnost ochrana spotřebitele</Typography>
       <Separator />
-      <Typography>ÚOHS - Úřad pro ochranu hospodářské soutěže (antimonopolní úřad)</Typography>
+      <Typography level="h4">
+        ÚOHS - Úřad pro ochranu hospodářské soutěže (antimonopolní úřad)
+      </Typography>
+      <List label="co je postihováno">
+        <L>Dohoda o cenách</L>
+        <L>Dohoda o působišti</L>
+        <L l label="Slučování firem">
+          <L l label="majetkové">
+            <L>Horizontalni</L>
+            <L>Vertikalni</L>
+            <L>Konglomeratni</L>
+          </L>
+          <L>Personální</L>
+        </L>
+        <L>Výhradní zastoupení</L>
+        <L>Diskriminace zákazníka</L>
+      </List>
+      <List label="Selhání trhu">
+        <L>Nedokonalá konkurence (C{'>'}N)</L>
+        <L>Externality</L>
+      </List>
     </div>
   );
 }
