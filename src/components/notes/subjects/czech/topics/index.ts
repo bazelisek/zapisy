@@ -1,5 +1,6 @@
 import { Topic } from "../..";
 import MUS20s from "./MUS20s";
+import SvetovaLiteratura from "./SvetovaLiteratura1pol20st";
 import Uvaha from "./Uvaha";
 
 const topics: Topic[] = [
@@ -13,6 +14,12 @@ const topics: Topic[] = [
         name: 'Úvaha',
         id: "uvaha",
         homepage: Uvaha,
+        description: "kuraaa dalsi zvasty"
+    },
+    {
+        name: 'Světová literatura 1. poloviny 20. století',
+        id: "svetova-literatura",
+        homepage: SvetovaLiteratura,
         description: "kuraaa dalsi zvasty"
     }
 ];

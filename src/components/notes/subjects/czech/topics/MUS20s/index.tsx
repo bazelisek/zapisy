@@ -175,11 +175,72 @@ export default function MUS20s() {
           <L>Polytematická - lyrický subjekt</L>
           <L>Asociace představ</L>
         </List>
-        
       </NoteAccordion>
       <DateMark>28.4.2026</DateMark>
       <Typography variant="note">Hovno se stalo</Typography>
-      
+      <DateMark>12.5.2026</DateMark>
+      <List label={<Typography level="h4">Guillaume Apollinaire</Typography>}>
+        <L>Avantgardní básník, prozaik, dramatik, kritik, anarchista</L>
+        <L>Angelika Kostrovická (PL, šlechtična, Řím, emigrace)</L>
+        <L>Paříž, literát na vlné noze</L>
+        <L>Alfréd Jacob, Max Jacob, Pablo Picasso</L>
+        <L>Dobrovolník, těžké zranění</L>
+        <L>Manželství s ošetřovatelkou</L>
+        <L>Oběť španělské chřipky</L>
+        <L>U nás inspiroval J. Seiferta, V. Nezvala, K. Čapka</L>
+        <L>
+          Poznámka: Francouzská poezie nové doby - soubor přeložených básní
+          autorů přelomu 19. a 20. století
+        </L>
+        <L l label="Alkoholy (1913)">
+          <L>Vstup do literatury</L>
+          <L>Kritika chyb v interpunkci</L>
+          <L>Negativní přijetí</L>
+          <L>Experimentuje s formou, obsahem i grafickou stránkou</L>
+          <L>Metoda volných asociací představ</L>
+          <L>Navození atmosféry změny řádu</L>
+          <L l label="Báseň Pásmo">
+            <L>Inspirace cestami po evropě</L>
+            <L>Prvky německé mtologie</L>
+            <L>Marseiless, pariz, ...</L>
+            <L>Verše inspirované prahou</L>
+          </L>
+        </L>
+        <L l label="Kaligramy (1918">
+          <L>
+            označení sírky + označení básnické formy - též ideogramy (obrazové
+            básně)
+          </L>
+          <L l label="Tradice od antiky (G.A. není tvůrcem, proslavil je)">
+            <L>Gargantua a Pantagruel text v podobě láhve</L>
+            <L>Texty ve formě labyrintu či brýlí</L>
+            <L>Největší kaligram na světě - Valencie - Etnologické muzeum</L>
+          </L>
+          <L>Symbol kubofuturismu</L>
+          <L l label="Autobiografické prvky">
+            <L>(báseň Malé auto, Druhý dělostřelec vozotaj)</L>
+            <L>láska k ženám Madelaine</L>
+          </L>
+          <L l label="Nový svět">
+            <L>Zvířečtější, čistší, divoši vyššího řádu, zákon vůní</L>
+            <L>Citlivější, Svobodnější, Zamilovanější</L>
+          </L>
+          <L l label="Avantgardní poetika">
+            <L>Volný verš, chybějící interpunkce, různé typy písma</L>
+            <L>Podle Nezvala neosvobozuje slova, ale věty</L>
+          </L>
+          <L l label="Prsy Tiresiovy (1918)">
+            <L>Absurdní rama</L>
+            <L>V předmluvě použito slovo surrealismus</L>
+            <L>o ženě Tereze</L>
+            <L>nechce být matkou</L>
+            <L>Zbavuje se mateřství</L>
+            <L>Nechronologická děj</L>
+            <L>Mísení snu a skutečnosti</L>
+            <L>Chybí základní struktura klasického dramatu</L>
+          </L>
+        </L>
+      </List>
     </div>
   );
 }

@@ -1,20 +1,19 @@
+import DateMark from "@/components/blocks/DateMark";
 import List from "@/components/elements/List";
 import Typography from "@/components/elements/Typography";
 import L from "@/components/shorts/L";
-import { InlineMath } from "react-katex";
+import { InlineMath, BlockMath } from "react-katex";
 
 export default function Alkadieny() {
   return (
     <div className="space-y-6">
-      <Typography level="h2">Alkadieny</Typography>
+      <DateMark>12.5.2026</DateMark>
 
-      <Typography>
-        Obecný příklad:
-      </Typography>
+      <Typography>Obecný příklad:</Typography>
 
-      <InlineMath math="CH_2 = CH - CH = CH_2" />
+      <BlockMath math="CH_2 = CH - CH = CH_2" />
 
-      <List variant="ol">
+      <List variant="ol" label="Dělení">
         <L>
           <strong>Konjugované</strong> – nejstabilnější
           <InlineMath math="\dots - C = C - C = C - \dots" />
@@ -38,7 +37,7 @@ export default function Alkadieny() {
       <div className="space-y-4">
         <Typography level="h3">Reakce</Typography>
 
-        <List>
+        <List label="Druhy reakcí">
           <L>
             <strong>Dehydrogenace:</strong>
             <InlineMath math="CH_2 = CH - CH_2 - CH_3 \xrightarrow{t} CH_2 = CH - CH = CH_2 + H_2" />
@@ -56,12 +55,17 @@ export default function Alkadieny() {
             </L>
 
             <L>
-                <InlineMath math="CH_2 = CH - CH = CH_2 + HBr \xrightarrow CH_3 - CHBr - CH = CH_2 " />(podle markovnikova pravidla)<br/>
-                <InlineMath math="CH_2 = CH - CH = CH_2 + HBr \xrightarrow CH_2Br - CH_2 - CH = CH_2 " />(radikalove (proti pravidlu))
+              <InlineMath math="CH_2 = CH - CH = CH_2 + HBr \xrightarrow CH_3 - CHBr - CH = CH_2 " />
+              (podle markovnikova pravidla)
+              <br />
+              <InlineMath math="CH_2 = CH - CH = CH_2 + HBr \xrightarrow CH_2Br - CH_2 - CH = CH_2 " />
+              (radikalove (proti pravidlu))
             </L>
           </L>
-          <L label="Polymerace">
-            <L><InlineMath math="n \cdot CH_2 = CH - CH = CH_2 \xrightarrow{initiator} [-CH_2 - CH = CH - CH_2 -]_n" /></L>
+          <L l label="Polymerace">
+            <L>
+              <InlineMath math="n \cdot CH_2 = CH - CH = CH_2 \xrightarrow{initiator} [-CH_2 - CH = CH - CH_2 -]_n" />
+            </L>
           </L>
         </List>
       </div>
