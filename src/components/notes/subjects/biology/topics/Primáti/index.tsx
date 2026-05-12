@@ -85,6 +85,15 @@ export default function Primati() {
           <L>Do evropy před 85 tis</L>
           <L>Do ameriky před 15-16tis lety</L>
           <L>Jeskyně pekárna v ČR</L>
+          <L l label="Europoidní rasa">
+            <L>Indický podtyp</L>
+            <L>Evropský podtyp</L>
+            <L>Arabský podtyp</L>
+          </L>
+          <L l label="Negroidní rasa"></L>
+          <L l label="Mongoloidní rasa">
+            <L>Také eskymáci a hinuité</L>
+          </L>
         </L>
       </NoteAccordion>
     </div>

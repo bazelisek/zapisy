@@ -177,7 +177,21 @@ export default function Trh() {
       </List>
       <List label="Selhání trhu">
         <L>Nedokonalá konkurence (C{'>'}N)</L>
-        <L>Externality</L>
+        <L>Externality - pozitivní, negativní</L>
+      </List>
+      <DateMark>12.5.2026</DateMark>
+      <Typography>Veřejné statky - nemohou být poskytovány jednomu aniž by nebyly poskytovány ostatním</Typography>
+      <List>
+        <L>Nevyloučitelnost</L>
+        <L>Nerivalitní spotřeba</L>
+      </List>
+      <List label="Role státu v ekonomice">
+        <L>Právní prostředí</L>
+        <L>Infrastruktura</L>
+        <L>Poptávající</L>
+        <L>Zajištění bezpečnosti</L>
+        <L>Sociální zabezpečení</L>
+        <L>Určuje minimální a maximální ceny</L>
       </List>
     </div>
   );

@@ -6,9 +6,9 @@ type ItemProps = ComponentPropsWithoutRef<typeof ListItem>;
 type NestedListProps = Omit<ComponentPropsWithoutRef<typeof List>, "children">;
 
 type LProps =
-  | ({ children: ReactNode; l?: false } & ItemProps)
+  | ({ children?: ReactNode; l?: false } & ItemProps)
   | ({
-      children: ReactNode;
+      children?: ReactNode;
       l: true;
       itemProps?: ItemProps;
     } & NestedListProps);
