@@ -45,12 +45,12 @@ export default function AlkenyAlkyny() {
         </p>
       </object>
       <Separator></Separator>
-      <InlineMath math="CH_3-CH-CH=CH_3 + Cl_2 -> CH_3-CHCl-CH_2Cl" />
-      <InlineMath math="CH_3-CH-CH=CH_3 + HBr -> CH_3-CH_2Br-CH_2" />
-      <InlineMath math="CH_3-CH-CH=CH_3 + HCl -> CH_3-CH_2Cl-CH_2" />
-      <InlineMath math="CH_3-CH2-CH=CH_3 + HBr -> CH_3-CH_2-CH_2Br" />
-      <InlineMath math="CH_3-CH2-CH=-CH_3 + HOH -> CH_3-CH_2-CH(OH)-CH_3" />
-      <InlineMath math="[CH_2-CH_2-CH_2]" /> {/*Polypropen, Monomer - Propen,  */}
+      <InlineMath math="CH_3-CH-CH=CH_3 + Cl_2 -> CH_3-CHCl-CH_2Cl" /><br/>
+      <InlineMath math="CH_3-CH-CH=CH_3 + HBr -> CH_3-CH_2Br-CH_2" /><br/>
+      <InlineMath math="CH_3-CH-CH=CH_3 + HCl -> CH_3-CH_2Cl-CH_2" /><br/>
+      <InlineMath math="CH_3-CH2-CH=CH_3 + HBr -> CH_3-CH_2-CH_2Br" /><br/>
+      <InlineMath math="CH_3-CH2-CH=-CH_3 + HOH -> CH_3-CH_2-CH(OH)-CH_3" /><br/>
+      <InlineMath math="[CH_2-CH_2-CH_2]" /> <br/>{/*Polypropen, Monomer - Propen,  */}
     </div>
   );
 }
