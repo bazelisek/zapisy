@@ -109,8 +109,13 @@ export default function PredWW2() {
           K propagaci režimu velmi dobře posloužily olympijské hry v Berlíně
           1936
         </Typography>
-        <DateMark>7.5.2026</DateMark>
-        <Typography level="h4">Velká hospodářská krize v ČS</Typography>
+      </NoteAccordion>
+      <DateMark>7.5.2026</DateMark>
+      <NoteAccordion
+        summary={
+          <>Velká hospodářská krize v ČS</>
+        }
+      >
         <Typography>
           V našich zemích vypukla se zpožděním a rok 29 byl rokem vrcholného
           růstu. Ještě v letech 30 a první polovině 31 měla jen slabý dopad
