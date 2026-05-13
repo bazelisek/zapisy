@@ -62,9 +62,19 @@ export default function Alkadieny() {
               (radikalove (proti pravidlu))
             </L>
           </L>
-          <L l label="Polymerace">
+          <L l label="Polymerace" variant="ol">
             <L>
-              <InlineMath math="n \cdot CH_2 = CH - CH = CH_2 \xrightarrow{initiator} [-CH_2 - CH = CH - CH_2 -]_n" />
+              <InlineMath math="n \cdot CH_2 = CH - CH = CH_2 \xrightarrow[]{} [-CH_2 - CH = CH - CH_2 -]_n" />
+            </L>
+            <L>
+              <Typography>
+                2-Methylbuta-1,3,-dien{" "}
+                <InlineMath math="n \cdot CH_2 = C(CH_3) - CH = CH_2 \xrightarrow[]{} [-CH_2 - C(CH_3) = CH - CH_2 -]_n"></InlineMath>
+                <br></br>
+                Kaučukovníky (Heveo brasiliensis) - latex -&gt; vulkanizace (treni se sirou)
+                <br/>
+                <strong>Elastomery</strong> - pružné polymery
+              </Typography>
             </L>
           </L>
         </List>
