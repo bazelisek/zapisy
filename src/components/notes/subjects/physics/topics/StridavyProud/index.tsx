@@ -38,5 +38,12 @@ export default function StridavyProud() {
       <img src="/obvod_s_indukcnosti_2.png" alt="Obvod s indukcnosti"/>
       <Typography>Proud se opožďuje</Typography>
     </NoteAccordion>
+    <NoteAccordion summary="Obvod s kapacitou">
+      <img src="/obvod_stridaveho_proudu_s_kapacitou.jpg" alt="Obvod s kapacitou" />
+      <Separator />
+      <img src="/obvod_stridaveho_proudu_s_kapacitou_2.jpg" alt="Obvod s kapacitou"/>
+      <Typography>Proud se předbíhá</Typography>
+      <img src="/obvod_stridaveho_proudu_s_kapacitou_3.jpg" alt="Obvod s kapacitou"/>
+    </NoteAccordion>
   </div>;
 }
