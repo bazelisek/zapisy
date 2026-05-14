@@ -2,6 +2,7 @@ import { Topic } from "../..";
 import Metabolismus from "./Metabolismus";
 import Primati from "./Primáti";
 import TraviciSoustava from "./TraviciSoustava";
+import VylucovaciSoustava from "./VylucovaciSoustava/Index";
 
 const topics: Topic[] = [
   {
@@ -22,6 +23,12 @@ const topics: Topic[] = [
     description: "Jak se strava mění na energii",
     homepage: Metabolismus,
   },
+  {
+    id: 'vylucovaci-soustava',
+    name: 'Vylučovací soustava',
+    description: 'Jak se zbavit odpadů',
+    homepage: () => VylucovaciSoustava(),
+  }
 ];
 
 export default topics;
