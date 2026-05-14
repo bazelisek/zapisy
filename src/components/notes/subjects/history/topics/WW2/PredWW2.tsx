@@ -141,6 +141,8 @@ export default function PredWW2() {
           politických extermistů (fašisti, komunisti).
         </Typography>
       </NoteAccordion>
+      <DateMark>14.5.2026</DateMark>
+      <Typography variant="note">Testík, pak nic</Typography>
     </>
   );
 }
