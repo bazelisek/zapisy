@@ -8,7 +8,7 @@ interface ListProps extends React.HTMLAttributes<
   HTMLUListElement | HTMLOListElement
 > {
   variant?: "ul" | "ol";
-  children: ReactNode;
+  children?: ReactNode;
   collapsible?: boolean;
   defaultCollapsed?: boolean;
   label?: ReactNode;
