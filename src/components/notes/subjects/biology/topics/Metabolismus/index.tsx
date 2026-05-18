@@ -1,5 +1,7 @@
 import List from "@/components/elements/List";
+import Typography from "@/components/elements/Typography";
 import L from "@/components/shorts/L";
+import { InlineMath } from "react-katex";
 
 export default function Metabolismus() {
   return (
@@ -64,6 +66,38 @@ export default function Metabolismus() {
           <L>Omega 3 - proti zánětlivým reakcím</L>
           <L>Omega 6 - pro zánětlivé reakce</L>
           <L>Měly by být v poměru 1:2-1:6</L>
+        </L>
+        <L l label="Trávení lipidů">
+          <L>Lipázy</L>
+          <L>Začíná v žaludku -&gt; tenké střevo</L>
+          <L>Štěpení na MK a glycerol</L>
+          <L>
+            <Typography variant="note">
+              <InlineMath math="\Beta"></InlineMath> oxidace
+            </Typography>
+          </L>
+        </L>
+      </List>
+      <List label="Metabolismus bílkovin">
+        <L l label="Funkce">
+          <L>Stavební a strukturní</L>
+          <L>Katalytická a řídící (enzymy a hormony)</L>
+          <L>Obranná a imunitní</L>
+          <L>Transportní a skladovací</L>
+          <L>Pohybová (kontraktilní)</L>
+          <L>Energetická</L>
+        </L>
+        <L l label="Aminokyseliny">
+          <L l label="Proteosyntéza">
+            <L>Obnova a růst tkání</L>
+            <L>Tvorba enzymů a hormonů</L>
+            <L>Tvorba protilatek</L>
+          </L>
+          <L>Tvorba nebílkovinných složek (glukóza, neurotransmiterů)</L>
+          <L>Nadbytečné aminokyseliny - deaminace - tvorba močoviny</L>
+        </L>
+        <L l label="Trávení proteinů">
+          <L>Peptidázy, proteázy</L>
         </L>
       </List>
     </div>
