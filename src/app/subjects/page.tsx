@@ -14,7 +14,7 @@ export default function Page() {
               <ListBox.Item key={subject.id} textValue={subject.name}>
                 <Link href={`/subjects/${subject.id}`} className="w-full">
                   <Tooltip delay={0}>
-                    <Tooltip.Trigger className="w-fit">
+                    <Tooltip.Trigger className="w-full">
                       <span>{subject.name}</span>
                     </Tooltip.Trigger>
                     <Tooltip.Content>{subject.description}</Tooltip.Content>
