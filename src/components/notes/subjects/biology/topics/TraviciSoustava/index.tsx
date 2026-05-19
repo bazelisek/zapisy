@@ -402,6 +402,24 @@ export default function TraviciSoustava() {
         </L>
       </L>
       <Typography variant="note">Pyčee kolik toho kurva jeeeeee</Typography>
+      <Typography level="h4">Nemoci</Typography>
+      <List>
+        <L>Nevolnost, průjem, zácpa</L>
+        <L>Appendicitida</L>
+        <L>
+          Celiakie - autoimunitní chronické onemocnění - zánět tenkého střeva v
+          reakci na lepek
+        </L>
+        <L>
+          Crohnov anemoc - chronické onemocnění v oblasti mezi tenkým a tlustým
+          střevem - příčina není známa (genetická predispozice) - bolesti
+          břicha, teplota, hubnutí, průjmy
+        </L>
+        <L>Jícnový reflux - pálení žáhy</L>
+        <L>Jaterní cirhóza</L>
+        <L>Žlučové kameny</L>
+        <L>Žaludeční vředy - Helicobacter pilori</L>
+      </List>
     </div>
   );
 }

@@ -1,3 +1,4 @@
+import DateMark from "@/components/blocks/DateMark";
 import List from "@/components/elements/List";
 import Typography from "@/components/elements/Typography";
 import L from "@/components/shorts/L";
@@ -100,6 +101,11 @@ export default function Metabolismus() {
           <L>Peptidázy, proteázy</L>
         </L>
       </List>
+      <DateMark>19.5.2026</DateMark>
+      <Typography>
+        Bazální metabolisus - minimální množství energie, které tělo potřebuje k
+        udržení základních životních funkcí - 60-70% výdeje
+      </Typography>
     </div>
   );
 }
