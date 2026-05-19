@@ -32,6 +32,26 @@ export default function PenizeABankovniSoustava() {
           </L>
         </L>
       </List>
+      <List label={<Typography>Bankovní soustava</Typography>}>
+        <L>Soustava institucí, které se zabývají penězi</L>
+        <L l label='Centrální banka (čnb)'>
+          <L>Regulace množství peněz v oběhu</L>
+          <L>Emisní fce (vydává peníze)</L>
+          <L>Určuje diskontní sazbu - určujeuvěrové podmínky pro další komerční banky</L>
+          <L>Určuje povinnou minimální rezervu</L>
+          <L>Obchoduje s vládními dluhopisy (nákup a prodej cenných papírů)</L>
+        </L>
+        <L l label='Obchodní (komerční) banky'>
+          <L>Aktivní - poskytování úvěrů (výnos)(hypoteční, lombardní)</L>
+          <L>Pasivní - přijímání vkladů (náklad)(Termínovaný, ...)</L>
+          <L>Zprostředkovatelské - Bezhotovostní platební styk</L>
+          <L>Depozitní</L>
+        </L>
+        <L l label='Ostatní specializované peněžní instituce'>
+          <L>Uchovatel hodnot</L>
+          <L>Prostředník směny</L>
+        </L>
+      </List>
     </div>
   );
 }

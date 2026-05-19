@@ -1,7 +1,7 @@
 import type { ComponentPropsWithoutRef, ReactNode } from "react";
 
 type ListItemProps = ComponentPropsWithoutRef<"li"> & {
-  children: ReactNode;
+  children?: ReactNode;
 };
 
 export default function ListItem({
