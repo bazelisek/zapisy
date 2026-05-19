@@ -5,7 +5,7 @@ import { ChevronDown } from "@gravity-ui/icons";
 interface NoteAccordionProps {
   icon?: ReactNode;
   summary: ReactNode;
-  children: ReactNode;
+  children?: ReactNode;
 }
 
 export default function NoteAccordion({
