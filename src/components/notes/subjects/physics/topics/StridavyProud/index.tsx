@@ -93,11 +93,34 @@ export default function StridavyProud() {
         <BlockMath math="X_C = \frac{1}{\omega C}"></BlockMath>
       </NoteAccordion>
       <NoteAccordion summary="Obvod střídavého proudu s RLC v sérii">
-        <img src="/obvod_stridaveho_proudu_s_RLC_v_serii.jpg" alt="Obvod s RLC" />
-        <Typography>Napětí na jednotlivých prvcích se liší velikostí a také fazovými rozdíly.</Typography>
-        <img src="/obvod_stridaveho_proudu_s_RLC_v_serii_2.jpg" alt="Obvod s RLC" />
-        <Typography>Impedance - <InlineMath math="Z"></InlineMath></Typography>
+        <img
+          src="/obvod_stridaveho_proudu_s_RLC_v_serii.jpg"
+          alt="Obvod s RLC"
+        />
+        <Typography>
+          Napětí na jednotlivých prvcích se liší velikostí a také fazovými
+          rozdíly.
+        </Typography>
+        <img
+          src="/obvod_stridaveho_proudu_s_RLC_v_serii_2.jpg"
+          alt="Obvod s RLC"
+        />
+        <Typography>
+          Impedance - <InlineMath math="Z"></InlineMath>
+        </Typography>
       </NoteAccordion>
+      <DateMark>20.5.2026</DateMark>
+      <Typography>
+        Reaktance(X) představuje tu část obvodu, kde se energie elektrická nemění
+        na energii tepelnou, ale pouze na energii el. pole mezi deskami
+        kondenzátoru a naopak. <InlineMath math="X=X_C-X_L"></InlineMath>
+      </Typography>
+      <Typography><InlineMath math="X_C = X_L => Z=R" /></Typography>
+      <Typography><InlineMath math="T = 2\pi\sqrt{\frac{l}{g}}"></InlineMath></Typography>
+      <Typography><InlineMath math="\frac{1}{C\omega} = L \cdot 2\pi \cdot f"></InlineMath> - pokud toto platí, nastává rezonance</Typography>
+      <Typography><InlineMath math="X_C = \frac{1}{C \cdot 2 \pi f}"></InlineMath> - kapacitance</Typography>
+      <Typography><InlineMath math="f_0 = \frac{1}{2\pi\sqrt{LC}} "></InlineMath></Typography>
+      
     </div>
   );
 }
