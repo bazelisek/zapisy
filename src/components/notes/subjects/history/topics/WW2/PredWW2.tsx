@@ -111,11 +111,7 @@ export default function PredWW2() {
         </Typography>
       </NoteAccordion>
       <DateMark>7.5.2026</DateMark>
-      <NoteAccordion
-        summary={
-          <>Velká hospodářská krize v ČS</>
-        }
-      >
+      <NoteAccordion summary={<>Velká hospodářská krize v ČS</>}>
         <Typography>
           V našich zemích vypukla se zpožděním a rok 29 byl rokem vrcholného
           růstu. Ještě v letech 30 a první polovině 31 měla jen slabý dopad
@@ -143,6 +139,25 @@ export default function PredWW2() {
       </NoteAccordion>
       <DateMark>14.5.2026</DateMark>
       <Typography variant="note">Testík, pak nic</Typography>
+      <DateMark>21.5.2026</DateMark>
+      <Typography>
+        Druhá republika - pod německým tlakem, nedemokratická s nárůstem
+        nacionalismu, antisemitismu atd.
+      </Typography>
+      <Typography>
+        Konečná likvidace ČS - 13.3.1939 byl čelní představitel Slovenska Tiso
+        povolán do Berlína, kde mu bylo předloženo ultimátum. 14.3. byl proto
+        vyhlášen Slovenský Štát. Podkarpatskou Rus obsadili Maďaři.
+      </Typography>
+      <Typography>
+        Do Berlína přijeli 14.3. i Hácha (prezident) a Chvalkovský (ministr
+        zahraničí), Na základě brutáního nátlaku podepsali formální "žádost o
+        ochranu". 15.3. došlo k okupaci zbytku státu, 16.3. byl vyhlášen
+        Protektorát Čechy a Morava. Protektorem se stal Konstantin von Neurath,
+        jeho zástupcem K.H. Frank.
+      </Typography>
+
+      
     </>
   );
 }
