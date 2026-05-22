@@ -54,7 +54,7 @@ export default function Osterreich() {
       </List>
       <List label="Städte" variant="ol">
         <L>Wien (2 Millionen Einwohner) - Hauptstadt</L>
-        <L>Graz</L>
+        <L>Graz (ŠTÝRSKÝ HRADEC)</L>
         <L>Linz</L>
         <L>Salzburg</L>
         <L>Innsbruck</L>
@@ -78,10 +78,24 @@ export default function Osterreich() {
         <L>Vorarlberg - Bregenz</L>
       </List>
       <List label="Politisches System">
-        <L>Die republik \Osterreich ist eine neutrale, parlamentarisch-demokratische Bundesrepublik.</L>
-        <L>das Staatsoberhaupt ist derr Bundespräzident. Er wird von der Bürgern für sechs Jahre gewählt. Die Teilnahme an der Präsidentenwahl ist obligatorisch. Derselbe Präsident kann nur noch einmal gewählt werden - <strong>Alexander Van der Bellen</strong>. </L>
-        <L>Die Bundesregiereung - and der Spitze der Regierung steht der Bundeskänzler. Die regierung hat 4 Jahre im Amt. Der Bundeskanzler heisst <strong>Christian Stocker</strong>.</L>
-        <L>Der Bunderparlament besteht aus 2 Kammern - Nationalrat, Bundesrat</L>
+        <L>
+          Die republik \Osterreich ist eine neutrale,
+          parlamentarisch-demokratische Bundesrepublik.
+        </L>
+        <L>
+          das Staatsoberhaupt ist derr Bundespräzident. Er wird von der Bürgern
+          für sechs Jahre gewählt. Die Teilnahme an der Präsidentenwahl ist
+          obligatorisch. Derselbe Präsident kann nur noch einmal gewählt werden
+          - <strong>Alexander Van der Bellen</strong>.{" "}
+        </L>
+        <L>
+          Die Bundesregiereung - and der Spitze der Regierung steht der
+          Bundeskänzler. Die regierung hat 4 Jahre im Amt. Der Bundeskanzler
+          heisst <strong>Christian Stocker</strong>.
+        </L>
+        <L>
+          Der Bunderparlament besteht aus 2 Kammern - Nationalrat, Bundesrat
+        </L>
         <L>Der Bundesgerichtshof</L>
         <L>Das Wahlrecht hatte alle Bürger als 19 Jahren</L>
       </List>
@@ -93,7 +107,10 @@ export default function Osterreich() {
       </List>
       <List label="Staatsymbole">
         <L>die Flagge - drei waagrechte Streiffen, rot-weiß-rot</L>
-        <L>das Wappen - es bildet das schwarzgraue gekrönte Adlerweibchen mit roter Zunge.</L>
+        <L>
+          das Wappen - es bildet das schwarzgraue gekrönte Adlerweibchen mit
+          roter Zunge.
+        </L>
       </List>
       <List label="Währung">
         <L>die Euro, der Cent</L>
@@ -127,7 +144,43 @@ export default function Osterreich() {
           <L>Fortswirtschaft</L>
           <L>Viehzucht</L>
         </L>
+        
       </List>
+      <Typography>Korutany - Kärnten
+Rakousko - Österreich
+Štýrský hradec - Graz
+Dráva - die Drau
+vídeň - Wien
+dolní rakousy - Nieder§osterreich
+Velký zvoník - Grossglöckner
+Svatý hippolit - st. Pölten
+Štýrsko - Steiermark
+Dunaj - Donau
+Hradsko - Burgenland
+Tyrolsko - tirol
+Morava - die March
+Dyje - die Thaya
+Neziderské jezero - die Neusiedlersee
+Hohe Tauren
+Horní rakousy - Oberösterreich
+Linz
+Moravské pole - Marchfeld
+Salzburg
+Solná komora - Salzkammergut
+Bregenz
+Panonská nížina - Pannonischetiefebene
+Melk
+Solnohradsku - Salzburg
+Vorarlbersko - Vorarlberg
+
+Adolf
+W. A. Mozart Salzburg, M.Kugeln, Don Giovanni
+Niki Lauda
+Franz Josef 1. 2.
+Marie Terezie
+A. Bach
+Gustav Klimt
+Arnold Schwarzenegger</Typography>
     </div>
   );
 }
