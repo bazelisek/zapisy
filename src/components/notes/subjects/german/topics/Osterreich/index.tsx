@@ -41,7 +41,7 @@ export default function Osterreich() {
           <L>die March</L>
           <L>die Krems</L>
         </L>
-        <L label="Seen">
+        <L l label="Seen">
           <L>Neusiedler See</L>
           <L>Mondsee</L>
           <L>Wörthersee</L>
