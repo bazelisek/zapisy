@@ -1,4 +1,5 @@
 import { Topic } from "../..";
+import Kuze from "./Kuze";
 import Metabolismus from "./Metabolismus";
 import Primati from "./Primáti";
 import TraviciSoustava from "./TraviciSoustava";
@@ -24,11 +25,17 @@ const topics: Topic[] = [
     homepage: Metabolismus,
   },
   {
-    id: 'vylucovaci-soustava',
-    name: 'Vylučovací soustava',
-    description: 'Jak se zbavit odpadů',
+    id: "vylucovaci-soustava",
+    name: "Vylučovací soustava",
+    description: "Jak se zbavit odpadů",
     homepage: () => VylucovaciSoustava(),
-  }
+  },
+  {
+    id: "kuze",
+    name: "Kůže",
+    description: "a",
+    homepage: Kuze,
+  },
 ];
 
 export default topics;

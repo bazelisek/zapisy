@@ -106,6 +106,14 @@ export default function Metabolismus() {
         Bazální metabolisus - minimální množství energie, které tělo potřebuje k
         udržení základních životních funkcí - 60-70% výdeje
       </Typography>
+      <DateMark>25.5.2026</DateMark>
+      <List label="Cholsterol">
+        <L>Steroidní látka</L>
+        <L>Důležitý pro tvorbu buněčných membrán, vitaminu D a pohlavních hormonů (estrogen, testosteron)</L>
+        <L>HDL - "hodný"</L>
+        <L>LDL - "zlý", nadbytek vede k arterioskleróze</L>
+        <L>Tvorba v játrech</L>
+      </List>
     </div>
   );
 }
