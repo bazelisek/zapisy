@@ -22,5 +22,6 @@ export default function Areny() {
           <a href="/materials/Alkeny_alkyny2.pdf">Open PDF</a>
         </p>
       </object>
+      {/*Rovnice vzniku elektrofilni castice u nitrace - HNO3​+2H2​SO4​→NO2+​+H3​O++2HSO4−​ */}
     </div>)
 }

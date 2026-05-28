@@ -116,6 +116,33 @@ export default function PenizeABankovniSoustava() {
           - dohlizi
         </L>
       </List>
+      <DateMark>28.5.2026</DateMark>
+      <List label="Družstvo">
+        <L>Společenství osob neuzavřeného počtu</L>
+        <L>Min 3 osoby</L>
+        <L>Stanovy</L>
+        <L>Členská schůze</L>
+        <L>Statutární orgán je do 50 osob předseda, nad 50 představenstvo</L>
+        <L>Kontrolní orgán - do 50 osob není, nad - kontrolní komise</L>
+        <L>Všichni mají stejná práva</L>
+        <L>Bytová družstva</L>
+        <L>Sociální družstva</L>
+        <L>Úvěrní a spotřební družstva</L>
+        <L>Výrobní družstva</L>
+        <L>Státní podniky - zřizovány ministerstvy za účelem podnikání, stat. zástupcem je ředitel, dohlíží představenstvo</L>
+        <L>Zrušení a zánik...</L>
+      </List>
+      <Typography>Makroekonomické veličiny - ukazatelé výkonnosti národní ekonomiky</Typography>
+      <List>
+        <L> Stálý ekonomický růst HDP</L>
+        <L>Zamstnanost</L>
+        <L>Cenová stabilita</L>
+        <L>Vyrovnaná plat. bilance+
+
+
+          
+        </L>
+      </List>
     </div>
   );
 }
