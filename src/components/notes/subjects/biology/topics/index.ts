@@ -1,4 +1,5 @@
 import { Topic } from "../..";
+import HormonalniSoustava from "./HormonalniSoustava";
 import Kuze from "./Kuze";
 import Metabolismus from "./Metabolismus";
 import Primati from "./Primáti";
@@ -36,6 +37,12 @@ const topics: Topic[] = [
     description: "a",
     homepage: Kuze,
   },
+  {
+    id: "hormonalni-soustava",
+    name: "Hormonalni soustava",
+    description: "Jak fungují hormony",
+    homepage: HormonalniSoustava,
+  }
 ];
 
 export default topics;

@@ -115,6 +115,49 @@ export default function SvetovaLiteratura() {
           </L>
         </List>
       </NoteAccordion>
+      <DateMark>2.6.2026</DateMark>
+      <NoteAccordion summary="Virginia Woolfová">
+        <List>
+          <L>
+            &apos;Cítím, že čas zběsile utíká jako film. snažím se ho zastavit.
+            Nastavuji mu mé pero.&apos;
+          </L>
+          <L>Chci napsat román o tichu... o věcech, které lidé neříkají</L>
+          <L>Povídky, romány, eseje</L>
+          <L>Skupina Bloomsbury</L>
+          <L>Chápání času H. Bergsona</L>
+          <L>Vliv impresionismu - práce s motivem světla</L>
+          <L>
+            Paní Dallowayová - K majáku - Vlny - Smyčcový kvartet - Vlastní
+            pokoj
+          </L>
+          <L l label="Skvrna na zdi">
+            <L>
+              Povídka se jeví jako beztvará tříšť vzpomínek a impresí, chaotický
+              proud vědomí
+            </L>
+            <L>
+              Virginie Woolfová viděla ve skvrně všechno jiné, jen ne hlemýždě
+            </L>
+            <L>Woolfovou nezajímá fyzická podoba hlemýždě, ale stavy, které v ní vzbuzuje</L>
+            <L>Povádka je prostoupena výrazy neurčitosti avšak okolí je popsáno velmi přesně</L>
+            <L>Jako impresionistu zvěčňuje V. Woolfovou pomíjivý okamžik, záchvěvy světla a barev</L>
+
+          </L>
+          <L l label="Paní Dallowayová">
+            <L>Nepříliš hezká, nepříliš chytrá, nepříliš vzdělaná žena</L>
+            <L>Intuitivní, stejně citlivá a vnímavá</L>
+            <L>Fyzicky se paní Dallowayová podobá své autorce</L>
+            <L>Trpí jako autorka depresemi a stísněností, také miluje krásu a květiny</L>
+            <L>Oblíbenou hostitelkou, také z vyšší třídy</L>
+            <L>Duševní porucha a tragický konec -&gt; tragédie Virginie Woolfové</L>
+            <L>Pohyb jednotlivých postav -&gt; mapa Londýna</L>
+            <L>Se zprávou o Septimově sebevraždě přišla na Clarissin večírek smrt</L>
+            <L>S odstupem času zbude z knížky Virginie Woolfová pocit radosti ze života</L>
+            <L>Nejhlouběji se vryje do paměti atmosféra nádherného červnového rána</L>
+          </L>
+        </List>
+      </NoteAccordion>
     </div>
   );
 }

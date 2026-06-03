@@ -79,7 +79,7 @@ export default function Osterreich() {
       </List>
       <List label="Politisches System">
         <L>
-          Die republik \Osterreich ist eine neutrale,
+          Die republik \Osterreich ist eine neutrale, seit 26. Oktober 1955.
           parlamentarisch-demokratische Bundesrepublik.
         </L>
         <L>
@@ -141,7 +141,7 @@ export default function Osterreich() {
           <L>Kartoffeln</L>
           <L>Zückerrüben</L>
           <L>Wein</L>
-          <L>Fortswirtschaft</L>
+          <L>Forstwirtschaft</L>
           <L>Viehzucht</L>
         </L>
         
