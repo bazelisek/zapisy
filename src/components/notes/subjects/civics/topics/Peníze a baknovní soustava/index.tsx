@@ -89,10 +89,58 @@ export default function PenizeABankovniSoustava() {
         <L>Obchodní korporace - druh firmy</L>
         <L>Obchodní družstva</L>
         <L l label="Obchodní společnosti">
-          <L>Osobní - v.o.s.</L>
+          <L
+            l
+            label="Osobní - v.o.s. - min. 2 společníci, vklad není pevně určen. Všichni rozhodují stejně"
+          >
+            <L>
+              2 druhy spolecniku = komanditiste = komanditni suma, komplementari
+            </L>
+          </L>
           <L>Smíšené k.s.</L>
           <L>Kapitálové s.r.o.</L>
-          <L>Akciové a.s.</L>
+          <L l label="Akciové a.s.">
+            <L>Akcie</L>
+            <L>NO - valna hromada</L>
+            <L>SD - dualisticky, monolisticky</L>
+            <L>Predstavenstvo + dozorci rada</L>
+            <L>Spravni rada(3 osoby)</L>
+          </L>
+          <L l label="Zalozeni a vznik OS">
+            <L>Spolecenska smlouva</L>
+            <L>Zakladaci listina</L>
+          </L>
+        </L>
+        <L>
+          Nejvyssi organ - rozhodujici otazky, statutarni - zastupuje, kontrolni
+          - dohlizi
+        </L>
+      </List>
+      <DateMark>28.5.2026</DateMark>
+      <List label="Družstvo">
+        <L>Společenství osob neuzavřeného počtu</L>
+        <L>Min 3 osoby</L>
+        <L>Stanovy</L>
+        <L>Členská schůze</L>
+        <L>Statutární orgán je do 50 osob předseda, nad 50 představenstvo</L>
+        <L>Kontrolní orgán - do 50 osob není, nad - kontrolní komise</L>
+        <L>Všichni mají stejná práva</L>
+        <L>Bytová družstva</L>
+        <L>Sociální družstva</L>
+        <L>Úvěrní a spotřební družstva</L>
+        <L>Výrobní družstva</L>
+        <L>Státní podniky - zřizovány ministerstvy za účelem podnikání, stat. zástupcem je ředitel, dohlíží představenstvo</L>
+        <L>Zrušení a zánik...</L>
+      </List>
+      <Typography>Makroekonomické veličiny - ukazatelé výkonnosti národní ekonomiky</Typography>
+      <List>
+        <L> Stálý ekonomický růst HDP</L>
+        <L>Zamstnanost</L>
+        <L>Cenová stabilita</L>
+        <L>Vyrovnaná plat. bilance+
+
+
+          
         </L>
       </List>
     </div>

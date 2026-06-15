@@ -1,4 +1,6 @@
 import { Topic } from "../..";
+import HormonalniSoustava from "./HormonalniSoustava";
+import Kuze from "./Kuze";
 import Metabolismus from "./Metabolismus";
 import Primati from "./Primáti";
 import TraviciSoustava from "./TraviciSoustava";
@@ -24,10 +26,22 @@ const topics: Topic[] = [
     homepage: Metabolismus,
   },
   {
-    id: 'vylucovaci-soustava',
-    name: 'Vylučovací soustava',
-    description: 'Jak se zbavit odpadů',
+    id: "vylucovaci-soustava",
+    name: "Vylučovací soustava",
+    description: "Jak se zbavit odpadů",
     homepage: () => VylucovaciSoustava(),
+  },
+  {
+    id: "kuze",
+    name: "Kůže",
+    description: "a",
+    homepage: Kuze,
+  },
+  {
+    id: "hormonalni-soustava",
+    name: "Hormonalni soustava",
+    description: "Jak fungují hormony",
+    homepage: HormonalniSoustava,
   }
 ];
 

@@ -111,16 +111,49 @@ export default function StridavyProud() {
       </NoteAccordion>
       <DateMark>20.5.2026</DateMark>
       <Typography>
-        Reaktance(X) představuje tu část obvodu, kde se energie elektrická nemění
-        na energii tepelnou, ale pouze na energii el. pole mezi deskami
+        Reaktance(X) představuje tu část obvodu, kde se energie elektrická
+        nemění na energii tepelnou, ale pouze na energii el. pole mezi deskami
         kondenzátoru a naopak. <InlineMath math="X=X_C-X_L"></InlineMath>
       </Typography>
-      <Typography><InlineMath math="X_C = X_L => Z=R" /></Typography>
-      <Typography><InlineMath math="T = 2\pi\sqrt{\frac{l}{g}}"></InlineMath></Typography>
-      <Typography><InlineMath math="\frac{1}{C\omega} = L \cdot 2\pi \cdot f"></InlineMath> - pokud toto platí, nastává rezonance</Typography>
-      <Typography><InlineMath math="X_C = \frac{1}{C \cdot 2 \pi f}"></InlineMath> - kapacitance</Typography>
-      <Typography><InlineMath math="f_0 = \frac{1}{2\pi\sqrt{LC}} "></InlineMath></Typography>
-      
+      <Typography>
+        <InlineMath math="X_C = X_L => Z=R" />
+      </Typography>
+      <Typography>
+        <InlineMath math="T = 2\pi\sqrt{\frac{l}{g}}"></InlineMath>
+      </Typography>
+      <Typography>
+        <InlineMath math="\frac{1}{C\omega} = L \cdot 2\pi \cdot f"></InlineMath>{" "}
+        - pokud toto platí, nastává rezonance
+      </Typography>
+      <Typography>
+        <InlineMath math="X_C = \frac{1}{C \cdot 2 \pi f}"></InlineMath> -
+        kapacitance
+      </Typography>
+      <Typography>
+        <InlineMath math="f_0 = \frac{1}{2\pi\sqrt{LC}} "></InlineMath>
+      </Typography>
+      <Typography>
+        <InlineMath math="Z = \sqrt{R^2 + (X_C - X_L)^2}" />, Z - Impedance -
+        celkový odpor
+      </Typography>
+      <NoteAccordion summary="Výkon">
+        <Typography level="h4">Rezistor</Typography>
+        <Typography>
+          <InlineMath math="p = U_m \cdot I_m^2 \cdot \sin^2{\omega t}" />
+        </Typography>
+        <Typography>
+          Okamzita hodnota vykonu se meni s dvounasobnou frekvenci a dosahuje
+          amplitudu P_m
+        </Typography>
+        <Typography>
+          <InlineMath math="P_m = R \cdot I_m^2" />
+        </Typography>
+        <Typography><InlineMath math="W = \frac{1}{2} P_m * T = \frac{1}{2}  R I_m^2 \cdot T"/></Typography>
+        <Typography>Stredni hodnota Vykonu:</Typography>
+        <Typography><InlineMath math="P_str = W/T= 1/2 P_m = \frac{1}{2} R I_m^2" /></Typography>
+        <Typography><InlineMath math="U_{ef} = \frac{U_m}{\sqrt{2}}, I_{ef} = \frac{I_m}{\sqrt{2}}"></InlineMath> - Efektivní napětí a proud</Typography>
+        <Typography><InlineMath math="P_{str} = U_{ef} \cdot I_{ef}"></InlineMath></Typography>
+      </NoteAccordion>
     </div>
   );
 }
